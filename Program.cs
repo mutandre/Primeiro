@@ -17,7 +17,7 @@ namespace _01
        
         Console.WriteLine (" Digite a letra A para adicionar"+"\r\n"+
          " Digite a letra B para subtrair"+"\r\n"+ " Digite a letra C para dividir"+"\r\n"
-         +" Digite a letra B para subtrair"+"\r\n");
+         +" Digite a letra D para Multiplicar"+"\r\n");
         cartao = Convert.ToChar(Console.ReadLine());
 
          if (cartao == 'S'|| cartao == 's') {
@@ -34,6 +34,12 @@ namespace _01
          else if(cartao == 'C'|| cartao == 'c'){
 
              Console.WriteLine("A Divisão  dos valores inserido é "+ (x/y));
+
+         }
+
+         else if(cartao == 'D'|| cartao == 'd'){
+
+             Console.WriteLine("A Multiplicação  dos valores inserido é "+ (x*y));
 
          }
 

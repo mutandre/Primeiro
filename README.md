@@ -82,3 +82,11 @@ else if(cartao == 'C'|| cartao == 'c'){
 
          }
 
+ 4-Multiplicar com condições
+
+ else if(cartao == 'D'|| cartao == 'd'){
+
+             Console.WriteLine("A Multiplicação  dos valores inserido é "+ (x*y));
+
+         }
+
