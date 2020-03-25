@@ -75,4 +75,10 @@ else if(cartao == 'B'|| cartao == 'b'){
 
          }
 
+ 3- Divisão com condições
+else if(cartao == 'C'|| cartao == 'c'){
+
+             Console.WriteLine("A Divisão  dos valores inserido é "+ (x/y));
+
+         }
 
