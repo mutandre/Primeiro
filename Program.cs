@@ -6,9 +6,17 @@ namespace _01
     {
         static void Main(string[] args)
         {
-            double x = 4;
-            Console.WriteLine("Raiz quadrada do valor inserido é "+ Math.Sqrt (x));
-            Console.WriteLine ("Exponecial do valaor "+ Math.Pow(Math.Sqrt(x),3));
+           Double x = 0;
+           Double y = 0;
+
+        Console.WriteLine ("Digite o valor do primeiro  número: " );
+        x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine ("Digite o valor do primeiro  número: " );
+        y = Convert.ToDouble(Console.ReadLine());
+        
+        Console.WriteLine("Raiz quadrada do valor inserido é "+ (x+y));
+        Console.ReadLine();
         }
+        
     }
 }
