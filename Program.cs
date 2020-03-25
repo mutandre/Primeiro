@@ -22,12 +22,12 @@ namespace _01
 
          if (cartao == 'S'|| cartao == 's') {
 
-            Console.WriteLine("Raiz quadrada do valor inserido é "+ (x+y));
+            Console.WriteLine("A Soma dos valores inserido é "+ (x+y));
          }
 
-         else if{
+         else if(cartao == 'B'|| cartao == 'b'){
 
-             Console.WriteLine("Operação não atualizada");
+             Console.WriteLine("A substração  dos valores inserido é "+ (x-y));
 
          }
 

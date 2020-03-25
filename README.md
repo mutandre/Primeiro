@@ -67,5 +67,12 @@ Fazendo raiz quadrada e exponencial
         
     }
 
+    3- Subtração com condições
+
+else if(cartao == 'B'|| cartao == 'b'){
+
+             Console.WriteLine("A substração  dos valores inserido é "+ (x-y));
+
+         }
 
 
